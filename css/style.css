@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ff5633;
+}
+.areaPrincipal { /*Así se define una clase*/
+    background-image: url("../img/fondo.png"); /* agregar fondo de imagen al div*/
+    background-repeat: no-repeat; /*permitir o no que se repita una imagen*/
+    width: 100%;
+    height: auto;
+    opacity: 0.7; /*Opacidad de la imagen*/
+    -webkit-background-size: 100% 100%;
+    /* Safari 3.0 */
+    -moz-background-size: 100% 100%;
+    /* Gecko 1.9.2 (Firefox 3.6) */
+    -o-background-size: 100% 100%;
+    /* Opera 9.5 */
+    background-size: 100% 100%;
+    /* Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browsers */
+}
+#encabezado{
+    background: #c70039;
+    height: 240px;
+    text-align: center;
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-size: 180px 180px;
+}
+.piePagina{
+    width: 100%;
+    height: 100px;
+    background-color: #900c3e;
+    color: #ffc300;
+    bottom: 0;
+    position: relative;
+    left: 0;
+    text-align: center;
+}
+#menu{
+    height: 40px;
+    position: relative;
+    top: 200px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #571845;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: #ffc300;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+li a :hover{
+    background-color: #111111;
+}
+#datos{
+    width: 90%;
+    background-color: #ffc300;
+    height: auto;
+    margin: auto;
+    opacity: 1;
+    color: #571845;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+h6{
+    font-size: 10px;
+}
